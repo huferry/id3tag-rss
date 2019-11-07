@@ -1,0 +1,30 @@
+{
+  "name": "id3tag-rss",
+  "version": "1.0.0",
+  "description": "Generate RSS feed xml from id3tag in the mp3 files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huferry/id3tag-rss.git"
+  },
+  "keywords": [
+    "id3tag",
+    "mp3",
+    "rss",
+    "podcast",
+    "rss-feed"
+  ],
+  "author": "Ferry Utomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huferry/id3tag-rss/issues"
+  },
+  "homepage": "https://github.com/huferry/id3tag-rss#readme",
+  "dependencies": {
+    "ffmetadata": "^1.5.0",
+    "podcast2": "^2.0.0"
+  }
+}
